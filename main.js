@@ -48,8 +48,8 @@ ProbabTheoryAndMathStat = new Subject(
 ProbabTheoryAndMathStatPractice = new Subject(
     "Теорія ймовірності та мат статистика 🎲",
     "Левчук Сергій Анатолійович",
-    "Zoom",
-    "levchukser65@gmail.com",
+    "247 387 1962 | kQNKZ1",
+    "levchukser65@gmail.com | Viber: (096) 77-68-353",
 );
 
 data = new Map([
@@ -159,7 +159,7 @@ function ShowInfo(e) {
 const td = document.querySelectorAll('td');
 td.forEach(elem => {
     if (elem.textContent == "-") {
-        elem.style.backgroundColor = "white";
+        elem.style.backgroundColor = "rgb(240, 240, 240)";
     }
 });
 
