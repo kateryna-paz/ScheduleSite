@@ -7,7 +7,6 @@ body {
 
 .header {
     background-color: rgb(47, 3, 63);
-    
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -87,12 +86,12 @@ th {
 
 td {
     font-size: 16px;
+    background-color: rgb(240, 240, 240);
     color: azure;
     max-width: 140px;
     border: 2px solid rgba(255, 255, 255, 0);
     transition: border 1s;
     cursor: pointer;
-    background-color: rgb(255, 255, 255);
     border-radius: 6px;
     font-family: 'Kurale', serif;
 }

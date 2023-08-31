@@ -101,7 +101,8 @@ function DenominatorChanged() {
         if (elem.getAttribute('id') === "DesignAndDevWebApp") {
             elem.removeAttribute('id');
             elem.innerHTML = "-";
-            element.style.cssText = '';
+            //element.style.cssText = '';
+            //elem.style.backgroundColor = "rgb(240, 240, 240)";
         } else {
             elem.innerHTML = "Теорія ймовірності та мат статистика 🎲";
             elem.setAttribute('id', "ProbabTheoryAndMathStatPractice");
