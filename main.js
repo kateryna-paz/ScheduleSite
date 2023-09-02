@@ -36,7 +36,7 @@ ModernIntTec = new Subject(
 DesignAndDevWebApp = new Subject(
     "Проектування та розробка Web-застосунків 📱",
     "Калюжняк Анастасія Вікторівна",
-    "Unknown",
+    "547 036 9954 | 8899",
     "Unknown",
 );
 ProbabTheoryAndMathStat = new Subject(
