@@ -24,8 +24,8 @@ DataBase = new Subject(
 ComputingMethods = new Subject(
     "Методи обчислень 📊",
     "Гребенюк Сергій Миколайович",
-    "BigBlueButtonMoodle",
-    "gsm1212@ukr.net",
+    "882 516 0001 | 394394",
+    "gsm1212@ukr.net | 0975775631",
 );
 ModernIntTec = new Subject(
     "Сучасні інтернет технології 🌐",
@@ -42,7 +42,7 @@ DesignAndDevWebApp = new Subject(
 ProbabTheoryAndMathStat = new Subject(
     "Теорія ймовірності та мат статистика 🎲",
     "Клименко Михайло Іванович",
-    "BigBlueButtonMoodle",
+    "BigBlueButtonMoodle or 517 422 6268 | C82BPh",
     "m1655291@gmail.com",
 );
 ProbabTheoryAndMathStatPractice = new Subject(
