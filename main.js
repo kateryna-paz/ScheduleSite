@@ -2,16 +2,19 @@ class Subject {
     Name = "subject";
     Teacher = "ПІП";
     Conferance = "";
+    Link = "";
     Email = "...gmail.com";
-    constructor(_name, _teacher, _conferance, _email) { 
+    constructor(_name, _teacher, _conferance, _link, _email) { 
         this.Name = _name;
         this.Teacher = _teacher;
         this.Conferance = _conferance;
+        this.Link = _link;
         this.Email = _email;
     }
     Name() { get; set }
     Teacher() { get; set }
     Conferance() { get; set }
+    Link() { get; set }
     Email() { get; set }
     
 }
@@ -19,36 +22,42 @@ DataBase = new Subject(
     "Бази Даних та інформаційні системи 📅",
     "Дребезов Денис",
     "538 972 1107 | 863367",
+    "https://us02web.zoom.us/j/5389721107?pwd=REpKZ0JwRk5HdE1kY1FQbjMzOGgwQT09",
     "gurami152@gmail.com",
 );
 ComputingMethods = new Subject(
     "Методи обчислень 📊",
     "Гребенюк Сергій Миколайович",
     "882 516 0001 | 394394",
+    "https://us02web.zoom.us/j/8825160001?pwd=Y2VUOHhjTHN6WU92elV6QUZzNXF4UT09",
     "gsm1212@ukr.net | 0975775631",
 );
 ModernIntTec = new Subject(
     "Сучасні інтернет технології 🌐",
     "Решевська Катерина Сергіївна",
     "511 572 8748 | 1s1gNH",
+    "https://us04web.zoom.us/j/5115728748?pwd=allMZ2drQkhKU3EvbkZtRWorbjZYdz09",
     "reshka82zp@gmail.com",
 );
 DesignAndDevWebApp = new Subject(
     "Проектування та розробка Web-застосунків 📱",
     "Калюжняк Анастасія Вікторівна",
     "547 036 9954 | 8899",
-    "Unknown",
+    "https://us04web.zoom.us/j/5470369954?pwd=Yln1kGKRheFxXQrJKqdYA1mTTk7OTk.1",
+    "anastasia.korgun@gmail.com",
 );
 ProbabTheoryAndMathStat = new Subject(
     "Теорія ймовірності та мат статистика 🎲",
     "Клименко Михайло Іванович",
     "BigBlueButtonMoodle or 517 422 6268 | C82BPh",
+    "https://us04web.zoom.us/j/5174226268?pwd=ZDR3a2RCUW5yL1NPYWtoODA0b2g3Zz09",
     "m1655291@gmail.com",
 );
 ProbabTheoryAndMathStatPractice = new Subject(
     "Теорія ймовірності та мат статистика 🎲",
     "Левчук Сергій Анатолійович",
     "247 387 1962 | kQNKZ1",
+    "#!",
     "levchukser65@gmail.com | Viber: (096) 77-68-353",
 );
 
@@ -143,7 +152,7 @@ function ShowInfo(e) {
                 
                 message.innerHTML = `<h3 style="margin: 4px 0">${value.Name}</h3>` +
                     `<p style="margin: 5px 0"> Викладач: ${value.Teacher} <br> 
-                    Конфа: ${value.Conferance}<br> 
+                    Конфа: <a href="${value.Link}">${value.Conferance} </a><br> 
                     E-mail: ${value.Email}</p>`;
                 
                 document.body.appendChild(message);
