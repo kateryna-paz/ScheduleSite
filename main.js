@@ -60,6 +60,20 @@ ProbabTheoryAndMathStatPractice = new Subject(
     "#!",
     "levchukser65@gmail.com | Viber: (096) 77-68-353",
 );
+Sociology = new Subject(
+    "Соціологія 🤷🏻",
+    "Бондаренко Олег Валерійович",
+    "Google Meet",
+    "https://meet.google.com/uiq-pcqz-ntd",
+    "Telegram",
+);
+CinemaHistory = new Subject(
+    "Історія світового кінематографу 🎬",
+    "Мільчев В.І.",
+    "357 728 9166 | 12345",
+    "#!",
+    "vladmilchev@ukr.net",
+);
 
 data = new Map([
     ['DataBase', DataBase],
@@ -68,6 +82,8 @@ data = new Map([
     ['DesignAndDevWebApp', DesignAndDevWebApp],
     ['ProbabTheoryAndMathStat', ProbabTheoryAndMathStat],
     ['ProbabTheoryAndMathStatPractice', ProbabTheoryAndMathStatPractice],
+    ['Sociology', Sociology],
+    ['CinemaHistory', CinemaHistory],
 ]);
 
 
