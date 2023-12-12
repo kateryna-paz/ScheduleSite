@@ -1,143 +1,151 @@
 class Subject {
-    Name = "subject";
-    Teacher = "ПІП";
-    Conferance = "";
-    Link = "";
-    Email = "...gmail.com";
-    constructor(_name, _teacher, _conferance, _link, _email) { 
-        this.Name = _name;
-        this.Teacher = _teacher;
-        this.Conferance = _conferance;
-        this.Link = _link;
-        this.Email = _email;
-    }
-    Name() { get; set }
-    Teacher() { get; set }
-    Conferance() { get; set }
-    Link() { get; set }
-    Email() { get; set }
-    
+  Name = "subject";
+  Teacher = "Name Surname";
+  Conferance = "";
+  Link = "";
+  Email = "...gmail.com";
+  constructor(_name, _teacher, _conferance, _link, _email) {
+    this.Name = _name;
+    this.Teacher = _teacher;
+    this.Conferance = _conferance;
+    this.Link = _link;
+    this.Email = _email;
+  }
+  Name() {
+    get;
+    set;
+  }
+  Teacher() {
+    get;
+    set;
+  }
+  Conferance() {
+    get;
+    set;
+  }
+  Link() {
+    get;
+    set;
+  }
+  Email() {
+    get;
+    set;
+  }
 }
 DataBase = new Subject(
-    "Бази Даних та інформаційні системи 📅",
-    "Дребезов Денис",
-    "538 972 1107 | 863367",
-    "https://us02web.zoom.us/j/5389721107?pwd=REpKZ0JwRk5HdE1kY1FQbjMzOGgwQT09",
-    "gurami152@gmail.com",
+  "Data Bases and Information Systems 📅",
+  "David Cook",
+  "853 373 1347 | 8hfve37",
+  "https://us02web.zoom.us/",
+  "gabrujeullufro-6270@yopmail.com"
 );
 ComputingMethods = new Subject(
-    "Методи обчислень 📊",
-    "Гребенюк Сергій Миколайович",
-    "882 516 0001 | 394394",
-    "https://us02web.zoom.us/j/8825160001?pwd=Y2VUOHhjTHN6WU92elV6QUZzNXF4UT09",
-    "gsm1212@ukr.net | 0975775631",
+  "Computing Methods 📊",
+  "Stanley Diaz",
+  "943 646 8651 | j7g3dde",
+  "https://us02web.zoom.us/",
+  "dimmenellinnoi-3210@yopmail.com"
 );
 ModernIntTec = new Subject(
-    "Сучасні інтернет технології 🌐",
-    "Решевська Катерина Сергіївна",
-    "511 572 8748 | 1s1gNH",
-    "https://us04web.zoom.us/j/5115728748?pwd=allMZ2drQkhKU3EvbkZtRWorbjZYdz09",
-    "reshka82zp@gmail.com",
+  "Modern Internet Technologies 🌐",
+  "Norman Ross",
+  "574 357 3858 | 9g4e3NH",
+  "https://us04web.zoom.us/",
+  "xafeyaudefra-7716@yopmail.com"
 );
 DesignAndDevWebApp = new Subject(
-    "Проектування та розробка Web-застосунків 📱",
-    "Калюжняк Анастасія Вікторівна",
-    "547 036 9954 | 8899",
-    "https://us04web.zoom.us/j/5470369954?pwd=Yln1kGKRheFxXQrJKqdYA1mTTk7OTk.1",
-    "anastasia.korgun@gmail.com",
+  "Design and development of Web-Apps 📱",
+  "Yukio Henderson",
+  "847 054 9368 | 2g7jd3",
+  "https://us04web.zoom.us/",
+  "valevureje-5754@yopmail.com"
 );
 ProbabTheoryAndMathStat = new Subject(
-    "Теорія ймовірності та мат статистика 🎲",
-    "Клименко Михайло Іванович",
-    "BigBlueButtonMoodle or 517 422 6268 | C82BPh",
-    "https://us04web.zoom.us/j/5174226268?pwd=ZDR3a2RCUW5yL1NPYWtoODA0b2g3Zz09",
-    "m1655291@gmail.com",
+  "Probability theory and math statistics 🎲",
+  "Zayd Price",
+  "858 406 6368 | d528Ph",
+  "https://us04web.zoom.us/",
+  "cigounnowoboi-3222@yopmail.com"
 );
 ProbabTheoryAndMathStatPractice = new Subject(
-    "Теорія ймовірності та мат статистика 🎲",
-    "Левчук Сергій Анатолійович",
-    "247 387 1962 | kQNKZ1",
-    "#!",
-    "levchukser65@gmail.com | Viber: (096) 77-68-353",
+  "Probability theory and math statistics 🎲",
+  "Valentino Moore",
+  "375 747 1562 | gQNKZ8",
+  "https://us04web.zoom.us/",
+  "loppoilaufrezo-1112@yopmail.com"
 );
 Sociology = new Subject(
-    "Соціологія 🤷🏻",
-    "Бондаренко Олег Валерійович",
-    "Google Meet",
-    "https://meet.google.com/uiq-pcqz-ntd",
-    "Telegram",
+  "Sociology 🎭",
+  "Solomon Jones",
+  "Google Meet",
+  "https://meet.google.com/",
+  "kallibrummidou-3568@yopmail.com"
 );
 CinemaHistory = new Subject(
-    "Історія світового кінематографу 🎬",
-    "Мільчев В.І.",
-    "357 728 9166 | 12345",
-    "#!",
-    "vladmilchev@ukr.net",
+  "History of world cinema 🎬",
+  "Kamden Wood",
+  "648 737 9126 | 12835",
+  "https://us04web.zoom.us/",
+  "teuveumacreihi-4088@yopmail.com"
 );
 
 data = new Map([
-    ['DataBase', DataBase],
-    ['ComputingMethods', ComputingMethods],
-    ['ModernIntTec', ModernIntTec],
-    ['DesignAndDevWebApp', DesignAndDevWebApp],
-    ['ProbabTheoryAndMathStat', ProbabTheoryAndMathStat],
-    ['ProbabTheoryAndMathStatPractice', ProbabTheoryAndMathStatPractice],
-    ['Sociology', Sociology],
-    ['CinemaHistory', CinemaHistory],
+  ["DataBase", DataBase],
+  ["ComputingMethods", ComputingMethods],
+  ["ModernIntTec", ModernIntTec],
+  ["DesignAndDevWebApp", DesignAndDevWebApp],
+  ["ProbabTheoryAndMathStat", ProbabTheoryAndMathStat],
+  ["ProbabTheoryAndMathStatPractice", ProbabTheoryAndMathStatPractice],
+  ["Sociology", Sociology],
+  ["CinemaHistory", CinemaHistory],
 ]);
 
-
-
-for (let btn of document.querySelectorAll('.btn')) {
-    btn.addEventListener('click', changeSchedule);
+for (let btn of document.querySelectorAll(".btn")) {
+  btn.addEventListener("click", changeSchedule);
 }
 
 function changeSchedule(e) {
-    let id = e.target.getAttribute('id');
-    
-    if (id === "numerator") NumeratorChanged();
-    else DenominatorChanged();
+  let id = e.target.getAttribute("id");
+
+  if (id === "numerator") NumeratorChanged();
+  else DenominatorChanged();
 }
 
-let btn1 = document.getElementById('numerator');
-let btn2 = document.getElementById('denominator');
-let changedElements = document.querySelectorAll('.changed');
+let btn1 = document.getElementById("numerator");
+let btn2 = document.getElementById("denominator");
+let changedElements = document.querySelectorAll(".changed");
 
 function NumeratorChanged() {
-    btn2.style.color = "black";
-    btn1.style.color = "green";
-    
-    changedElements.forEach(elem => {
-        if (elem.getAttribute('id') === null) {
-            elem.innerHTML = "Проектув та розроб Web-застосунків 📱";
-            elem.setAttribute('id', "DesignAndDevWebApp");
+  btn2.style.color = "black";
+  btn1.style.color = "green";
 
-        } else {
-            elem.innerHTML = "БД та інформаційні системи 📅";
-            elem.setAttribute('id', "DataBase");
-        }
-    });
+  changedElements.forEach((elem) => {
+    if (elem.getAttribute("id") === null) {
+      elem.innerHTML = "Design and development of Web-Apps 📱";
+      elem.setAttribute("id", "DesignAndDevWebApp");
+    } else {
+      elem.innerHTML = "Data Bases and Information Systems 📅";
+      elem.setAttribute("id", "DataBase");
+    }
+  });
 }
 function DenominatorChanged() {
-    btn1.style.color = "black";
-    btn2.style.color = "red";
-    
-    changedElements.forEach(elem => {
-        if (elem.getAttribute('id') === "DesignAndDevWebApp") {
-            elem.removeAttribute('id');
-            elem.innerHTML = "-";
-            //element.style.cssText = '';
-            //elem.style.backgroundColor = "rgb(240, 240, 240)";
-        } else {
-            elem.innerHTML = "Теорія ймовірності та мат статистика 🎲";
-            elem.setAttribute('id', "ProbabTheoryAndMathStatPractice");
-        }
-    });
+  btn1.style.color = "black";
+  btn2.style.color = "red";
+
+  changedElements.forEach((elem) => {
+    if (elem.getAttribute("id") === "DesignAndDevWebApp") {
+      elem.removeAttribute("id");
+      elem.innerHTML = "-";
+    } else {
+      elem.innerHTML = "Probability theory and math statistics 🎲";
+      elem.setAttribute("id", "ProbabTheoryAndMathStatPractice");
+    }
+  });
 }
 
-
-for (let td of document.getElementsByTagName('td')) {
-    td.addEventListener('click', ShowInfo);
+for (let td of document.getElementsByTagName("td")) {
+  td.addEventListener("click", ShowInfo);
 }
 
 //let previousElement;
@@ -145,49 +153,44 @@ let previousMessage;
 let message;
 
 function ShowInfo(e) {
-    if (previousMessage !== null && previousMessage !== undefined) {
-        
-        document.body.removeChild(previousMessage);
-    }
-    
-    previousMessage = null;
-    let id = e.target.getAttribute('id');
+  if (previousMessage !== null && previousMessage !== undefined) {
+    document.body.removeChild(previousMessage);
+  }
 
-    if (id !== null) { 
-        let positionX = e.clientX;
-        let positionY = e.clientY;
-    
-        data.forEach((value, key, map) => {
-            if (key === id) {
-                message = document.createElement('div');
-                
-                message.classList.add('message');
-                message.style.cssText = `
+  previousMessage = null;
+  let id = e.target.getAttribute("id");
+
+  if (id !== null) {
+    let positionX = e.clientX;
+    let positionY = e.clientY;
+
+    data.forEach((value, key, map) => {
+      if (key === id) {
+        message = document.createElement("div");
+
+        message.classList.add("message");
+        message.style.cssText = `
                     left: ${positionX}px;
                     top: ${positionY}px;`;
-                
-                message.innerHTML = `<h3 style="margin: 4px 0">${value.Name}</h3>` +
-                    `<p style="margin: 5px 0"> Викладач: ${value.Teacher} <br> 
-                    Конфа: <a href="${value.Link}">${value.Conferance} </a><br> 
-                    E-mail: ${value.Email}</p>`;
-                
-                document.body.appendChild(message);
 
-                previousMessage = message;
-            }
-        });
-    }
+        message.innerHTML =
+          `<h3 style="margin: 4px 0">${value.Name}</h3>` +
+          `<p style="margin: 5px 0"> Викладач: ${value.Teacher} <br> 
+                    Conf: <a href="${value.Link}">${value.Conferance} </a><br> 
+                    E-mail: ${value.Email}</p>`;
+
+        document.body.appendChild(message);
+
+        previousMessage = message;
+      }
+    });
+  }
 }
 
-
-
 // styles for td with textContent
-const td = document.querySelectorAll('td');
-td.forEach(elem => {
-    if (elem.textContent == "-") {
-        elem.style.backgroundColor = "rgb(240, 240, 240)";
-    }
+const td = document.querySelectorAll("td");
+td.forEach((elem) => {
+  if (elem.textContent == "-") {
+    elem.style.backgroundColor = "rgb(240, 240, 240)";
+  }
 });
-
-
-
